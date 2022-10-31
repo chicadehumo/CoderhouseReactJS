@@ -1,4 +1,6 @@
-const Header = (content) => {
+import CartWidget from './CartWidget.js'
+
+const NavBar = (content) => {
     return (
       <>
       <header className="header"  uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
@@ -11,19 +13,23 @@ const Header = (content) => {
           </div>
           <div className="uk-navbar-center">
             <ul className="uk-navbar-nav uk-visible@l uk-flex-middle">
-              <li>{content.menu1}</li>
-              <li>{content.menu2}</li>
-              <li>{content.menu3}</li>
-              <li>{content.menu4}</li>
+              <li>
+                <a href="#menu1" title="" >{content.menu1}</a>
+              </li>
+              <li><a href="#menu2" title="{content.menu2}" >{content.menu2}</a></li>
+              <li><a href="#menu3" title="{content.menu3}" >{content.menu3}</a></li>
+              <li><a href="#menu4" title="{content.menu4}" >{content.menu4}</a></li>
             </ul>
           </div>
           <div className="uk-navbar-right">
             <ul className="uk-navbar-nav uk-flex-middle">
-            <li><span uk-icon="icon:instagram; ratio:1.5"></span></li>
-            <li><span uk-icon="icon:cart; ratio:1.5"></span></li>
+            <li><span href='https://www.instagram.com/maitri.soul/' uk-icon="icon:instagram; ratio:1.5"></span></li>
+            <li>
+              <CartWidget />
+            </li>
             </ul>
           </div>
-          <span class="uk-navbar-toggle main-menu uk-hidden@l" href="#offCanvas" role="button" uk-toggle><span uk-icon="icon:menu; ratio:1.5"></span></span>
+          <a class="uk-navbar-toggle main-menu uk-hidden@l" href="#offCanvas" uk-toggle><span uk-icon="icon:menu; ratio:1.5"></span></a>
         </nav>
         </div>
       </header>
@@ -31,4 +37,4 @@ const Header = (content) => {
     )
   }
 
-  export default Header;
+  export default NavBar;
