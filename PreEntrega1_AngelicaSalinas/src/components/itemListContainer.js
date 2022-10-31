@@ -3,7 +3,7 @@ const SectionContainer = (content) => {
       <>
         <section className="uk-section">
         <div className="uk-container">
-          <div className="uk-flex uk-grid-large" uk-grid>
+          <div className="uk-flex uk-grid-large uk-grid" uk-grid>
             <div className="uk-width-1-2@m">
               <h1 className="primeTitle">{content.greeting}</h1>
             </div>

@@ -4,7 +4,7 @@ const NavBar = (content) => {
     return (
       <>
       <header className="header"  uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-      <div class="uk-panel main-nav">
+      <div className="uk-panel main-nav">
         <nav className="uk-container uk-navbar-container uk-navbar-transparent uk-light" uk-navbar="dropbar:false;">
           <div className="uk-navbar-left">
             <div className="uk-navbar-item uk-logo">
@@ -29,7 +29,7 @@ const NavBar = (content) => {
             </li>
             </ul>
           </div>
-          <a class="uk-navbar-toggle main-menu uk-hidden@l" href="#offCanvas" uk-toggle><span uk-icon="icon:menu; ratio:1.5"></span></a>
+          <a className="uk-navbar-toggle main-menu uk-hidden@l" href="#offCanvas" uk-toggle><span uk-icon="icon:menu; ratio:1.5"></span></a>
         </nav>
         </div>
       </header>
