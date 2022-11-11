@@ -1,0 +1,14 @@
+.header {
+    background-color: #27343B;
+}
+.cartNav {
+    position: relative;
+}
+.uk-badge {
+    position: absolute;
+    right: -5px;
+    top: 20px;
+}
+.primeTitle {
+    font-family: 'Quicksand', sans-serif, 'Helvetica Neue', sans-serif;
+}
