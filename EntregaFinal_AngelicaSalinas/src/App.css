@@ -1,0 +1,33 @@
+.header {
+    background-color: #27343B;
+}
+.cartNav {
+    position: relative;
+}
+.uk-badge {
+    position: absolute;
+    right: -5px;
+    top: 20px;
+}
+.primeTitle {
+    font-family: 'Quicksand', sans-serif, 'Helvetica Neue', sans-serif;
+}
+.uk-button-default {
+    border-color: #06979c;
+    font-weight: bold;
+}
+.uk-button-default:hover {
+    border-color: #06979c;
+    background-color: #06979c;
+    color: white;
+}
+.uk-button-primary {
+    background-color: white;
+    border: solid 1px #ee8080;
+    color: #27343B;
+}
+.uk-button-primary:hover, .uk-button-primary:active {
+    background-color: #ee8080;
+    border: solid 1px #ee8080;
+    color: #27343B;
+}
